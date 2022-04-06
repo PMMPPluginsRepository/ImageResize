@@ -38,7 +38,6 @@ class GifImageConvert extends ImageConvert{
 		imagefilledrectangle($newResource, 0, 0, $old_width, $old_height, $transparent);
 		imagecopyresampled($newResource, $image, 0, 0, 0, 0, $old_width, $old_height, $width, $height);
 		$this->saveImage($newResource, $destPath);
-		$this->setResult(ImageResizeResult::SUCCESS());
 		return $this;
 	}
 }
