@@ -1,0 +1,5 @@
+name: ImageResize
+antigen: skh6075\lib\imageresize
+version: 1.0.0
+api: 4.0.0
+authors: skh6075
